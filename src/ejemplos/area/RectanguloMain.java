@@ -1,4 +1,4 @@
-package src.area;
+package src.ejemplos.area;
 import java.util.Scanner;
 
 import lib.Rectangulo;

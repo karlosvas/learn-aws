@@ -1,4 +1,4 @@
-package src.ejemplos_iniciales;
+package src.ejemplos;
 
 import java.math.BigInteger;
 

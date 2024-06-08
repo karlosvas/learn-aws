@@ -202,3 +202,46 @@ try {
 
 Un hilo o también conocido como Thread por si tradución al inglés, es una secuencia de instrucciones o flujo de instruccion, que se ejecutan de forma concurrente y simultanea con otras secuencias.
 Es decir con ayuda delos hilos podremos ejecutar mas de uno de los procesos al mismo tiempo.
+
+Podemos acceder a su nombre con this.getName()
+
+```java
+// Hilo1.java
+package lib.hilos.sincronizacion;
+public class Hilo1 extends Thread{
+    @Override
+    public void run (){
+    }
+}
+// Main.java
+package src.hilos.sincronizacion;
+import lib.hilos.sincronizacion.*;
+
+public class Main {
+    public static void main(String[] args){
+        Hilo1 tread1 = new Hilo1();
+        tread1.start();
+    }
+}
+```
+
+## Sincronización de hilos
+La sincronización de hilos permite controlar el tiempo de ejecución de varios hilos ejecutándose de manera simultánea.
+Cuya finalidad, es evitar que un hilo provoque el entorpecimiento de otro hilo al momento de estar ejecutando sus respectivas tareas.
+O bien para establecer un orden de ejecución en nuestros programas al utilizar hilos
+
+## Constructor 
+Un constructor tiene las sigueientes características
+Tiene el mismo nommbre de la clase
+Es el primer método que se ejecuta
+No puede retornar datos
+Se ejecuta una unica vez
+Tiene por objetivo inicializar objetivos
+
+## La clase Math
+Contiene métodos para realizar operaciones y cálculos matemáticos como:
+Funciones Hiperbólicas, Trigonométricas conversion de grados a radianes y viceversa
+Paso de cordenadas de rectangulares a polares
+Ademas, la clase Math tiene una referencia a las dos contantes más utilizdas en las matemáticas con una precisión de 15 decimales, las cuales son:
+e=2.718281822459045
+pi=3,141592653589793

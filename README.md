@@ -245,3 +245,24 @@ Paso de cordenadas de rectangulares a polares
 Ademas, la clase Math tiene una referencia a las dos contantes más utilizdas en las matemáticas con una precisión de 15 decimales, las cuales son:
 e=2.718281822459045
 pi=3,141592653589793
+
+## Suma de matrices
+La suma de matrices solo se puede realizar entre matrices de la misma dimensión, es decir, la misma dimensión, es decir, las mismas filas y las mismas columnas, por tal motivo la matriz resultante tiene las mismas dimensiones.
+
+La suma se efectúa en cada uno de los elementos correspondiente a cada matriz en su posición actual, es decir, se sumara la posicion de la matriz [0][0] con la [0][0] y el resultado se guardará en resultado[0][0].
+
+## Listas en java
+Las listas, son un tipo de dato abstacto que nos permiten almacenar datos de una forma organizada al igual que los vectores pero a diferencia de estos, esta estructura es dinámica, por lo que no es necesario conocer la cantidad de elementos que va a contener.
+
+Un una lista cada elemento apunta al siguiente elemento, excepto el ultimo elemento, el cual no tiene un sucesor y por tal motivo el valor del enlace es null.
+
+En este caso, los elementos son registros que contienen el dato al almacenar y un enlace al siguiente elemento. Los elementos de una lista, suelen recibir el nombre de nodos de la lista.
+
+Tal y como se explico previamente cada nodo tien dos campos, un campo con información y un campo con un apuntador al siguiente nodo de la lista.
+
+Dependiendo del procedimiento de insercion y extraccion de nodos en la lista tenemos los siguientes tipos.
+Listas tipo, pila, cola, genéricas.
+
+Una lista es de tipo pila cuando las inerciones y extraciones se realizan por el mismo lado de la lista.
+Estas listas tienen una característica en particular, la cual consiste en que el ultimo elemento en entrar a la lista es el primero en salir.
+Se las conoce como FIFO, last in last out.
